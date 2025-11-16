@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "framework": "vite",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/gs(.*)",
+      "destination": "https://script.google.com/macros/s/AKfycbxKkPJXgVBjH1MtLa5h1064bJj-VzVjcToaHC1JAN5N_F4bFy87bj5SeWisu4UaYCUP7Q/exec$1"
+    }
+  ]
+}
